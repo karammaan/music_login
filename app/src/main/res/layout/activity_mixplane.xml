@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hp"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Mixplane"
+        android:textSize="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:id="@+id/mixplane_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fresh music,once a week."
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/mixplane_name"
+
+        />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="LOGIN WITH FACEBOOK"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000"
+
+        android:background="@drawable/rounded_rect"
+        android:id="@+id/login"
+        android:layout_marginTop="200dp"
+        />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="SIGN WITH EMAIL"
+    android:textSize="20dp"
+    android:gravity="center"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:textColor="#000"
+    android:background="@drawable/rounded_rect"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/login"
+        android:id="@+id/sign"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I already have an account"
+        android:layout_below="@+id/sign"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:id="@+id/account"
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_below="@+id/account"
+        android:background="#000"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp">
+
+
+    </View>
+
+
+
+
+</RelativeLayout>
+
+</RelativeLayout>
